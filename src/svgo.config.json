@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    { "name": "removeUnusedNS", "active": true },
+    { "name": "removeTitle", "active": true },
+    { "name": "preset-default", "params": { "overrides": { "removeViewBox": false } } },
+    { "name": "removeAttrs", "params": { "attrs": ["^data-.*$"] } },
+    { "name": "convertColors", "params": { "currentColor": true } }
+  ]
+}
