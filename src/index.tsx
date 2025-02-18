@@ -3,7 +3,7 @@ import { store } from 'Internals/store';
 import { createRoot } from 'react-dom/client';
 import { App } from './App';
 
-console.log('store', store);
+import './style/core.css';
 
 // if (module.hot) {
 //   module.hot.accept();
